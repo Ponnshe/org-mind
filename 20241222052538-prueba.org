@@ -9,5 +9,7 @@ Esto es una edicion para probar el comando
 
 Otra prueba
 
+Prueba para ver si se sincronizan las notas al cerrar emacs
+
 - [[id:0f4cb31a-fa57-4fe3-924c-527c35cccd2c][Calculus Index]]
 - [[id:7e247d94-1c78-42ca-8e55-364870f5200e][Integral]]
