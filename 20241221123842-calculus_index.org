@@ -1,6 +1,0 @@
-:PROPERTIES:
-:ID:       0f4cb31a-fa57-4fe3-924c-527c35cccd2c
-:END:
-#+title: Calculus Index
-* Notes
-[[id:7e247d94-1c78-42ca-8e55-364870f5200e][Integral]]
