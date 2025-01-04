@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       9c0ac6c2-7860-4a5d-b2e2-808f663ee7ce
+:END:
+#+title: Proyectos-Index
+#+category: INDEX
+#+filetags: python project
+* TODO [[id:03ff4dce-f21e-4b99-8ada-dee0415142c3][proyecto-derivative-calculator]] 
