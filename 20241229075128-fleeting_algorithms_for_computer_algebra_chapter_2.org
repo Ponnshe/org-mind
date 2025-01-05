@@ -1,8 +1,0 @@
-:PROPERTIES:
-:ID:       891fec14-23eb-43f0-9c64-dc447767377f
-:END:
-#+title: Fleeting - Algorithms for Computer Algebra Chapter 2
-#+filetags: :fleeting:
-
-* Vocabulary
-* Ideas
