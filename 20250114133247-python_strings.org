@@ -1,0 +1,37 @@
+:PROPERTIES:
+:ID:       ac87cf3d-84bf-4db2-8c0c-4a8acc0961f9
+:END:
+#+title: Python Strings
+* Do not forget to add the corresponding explanation of string[i] in [[id:2aaa0de3-6fab-4b9c-aa29-2a7b2c91deb1][Chess Dictionary Validator]]
+* Strings
+A string in python can be thought as a non mutable list of characters, so we can use some of the functions and tools that we applied to lists.
+** Tools
+*** len function
+With the ~len(str)~ function we can get the lenght of the string.
+**** Use Cases
+***** Check for password lenght
+#+begin_src python
+password = input("Write a password: ")
+if len(password) < 14:
+    print("Sorry, but password must be at least 14 characters long")
+else:
+    print("Password is ok")
+#+end_src
+*** Acces characters of a string
+To acces a character of a string we use the index syntax or we can slice it, like a list.
+=Remember that strings are non mutable so we can't change one character of the string, we can only check what is the character in an x position of the string=
+**** Use Cases
+***** Check for domain of a url
+This program just check if an url is a .com domain url
+#+begin_src python
+urls = ["google.com", "Hola, Jaime", "ejemplo.com", "Maria"]
+for url in urls:
+    domain = url[-4:]
+    if domain == ".com":
+        print("It is a .com url")
+    else:
+        print("It is not a .com url")
+#+end_src
+** Methods
+* See Also
+- [[id:1ebef9bf-4af9-478d-b9cc-e95e376ba78a][Python List]]

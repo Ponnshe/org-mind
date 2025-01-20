@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       49965b9b-69db-44c1-8d24-e4b3c5c1e722
+:END:
+#+title: Programming - Dictionary
+* TODO Complete this note

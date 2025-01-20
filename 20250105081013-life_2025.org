@@ -1,0 +1,36 @@
+:PROPERTIES:
+:ID:       ce4af951-dd1c-4831-979b-3ed88d4508d6
+:END:
+#+title: Life-2025
+* Important Notes
+/Things to remember daily, like new philosophy/
+- Your principal hobby will be creating a game with C++
+* Principal Areas
+/Areas that I *must* focus/
+- [[id:1067cbc4-bdfd-4167-98c4-b4d9f28b0560][Area-Backend]]
+- [[id:55790fc8-acdf-4bff-8392-1c588d7b2c41][Area-Trading]]
+
+* Secondary Areas
+/Other areas that I want to explore as a hobby/
+- [[id:fef6055c-4db5-44e5-88c7-93fc381cbbf8][Area-nixOS]]
+
+* Exploratory Ideas
+/Ideas that I want to explore or do/
+- Learn nix
+- Learn flake
+- learn home-manager
+- learn how to manage dotfile for reproducibility
+
+* Fleeting Notes
+- [[id:e756cfbd-1a7e-44a8-ade3-809bdc81bc6d][Fleeting - Tkinter]]
+- [[id:891fec14-23eb-43f0-9c64-dc447767377f][Fleeting - Algorithms for Computer Algebra Chapter 2]]
+- [[id:834d4780-830f-4700-ac5f-22305f8af696][PVM - Python works in a PVM]]
+
+* Tools
+/Files with some knowledge that I may want to revisit or check before doing something like my trading plan, study system, etc/
+
+- [[id:67448f6b-a30f-4283-81af-219f8baeec85][Tool-Study System]]
+- [[id:635918bf-314d-4636-8a90-eae2ddf048cd][Tool-Trading Plan]] 
+
+* Diary
+  

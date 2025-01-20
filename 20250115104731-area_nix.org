@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       c787dfaf-526d-47a9-bcfe-da6d416f7182
+:END:
+#+title: Area-Nix
+#+category: AREA
+#+filetags: :programming:functional:nixOS:language:
+* Nix Language
+** Objectives
+- Be profficient with nix language
+** Resources
+- https://nix.dev/tutorials/nix-language *tutorial*
+** Now Plan
+** Plan
+** Log

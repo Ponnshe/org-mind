@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       217bb625-1a0b-44a9-9402-a753cd5ce5d8
+:END:
+#+title: Book - Análisis Técnico de Mercados Financieros
+#+category: BOOK
+#+filetags: :trading:technicalAnalisis:
+#+author: John J. Murphy
+
+* READING [[~/Home/Studying/Trading/ANALISIS TÉCNICO MERCADOS FINANCIEROS.pdf][Análisis Técnico de Mercados Financieros - Jhon J. Murphy]]
+  
+* Chapters
+
+* Fleetings

@@ -1,0 +1,127 @@
+:PROPERTIES:
+:ID:       1ebef9bf-4af9-478d-b9cc-e95e376ba78a
+:END:
+#+title: Python List
+#+filetags: :coding:concepts:
+#+category: NOTE
+
+* Syntax
+To use a list in Python you just use this syntax
+** Create and initialize a list
+#+begin_src python
+example_list=[1,2,3,4]
+#+end_src
+With this syntax you can create and initialize a list. In this case we create the list "list_example" and intialize it with the values "1,2,3,4"
+** Create a list without initialize it
+#+begin_src python
+example_list=[]
+#+end_src
+With this syntax we just create a list called "list_example", but it is empty, we can save data later with some methods, especifically the methods *append()* and *j
+* Characteristics
+- It saves the order of the elements
+- It is mutable
+* Methods
+** append()
+It add an elment at the end of a list
+*** Use cases
+**** Save user entry information
+Let say we want to save some items that our user want to save, so our code will look something like this
+#+begin_src python
+things_to_remenber = [] #We start with an empty list because we don't know what we'll like to remember
+continue = true #Helping variable to control the loop
+while continue:
+    thing = input("What do you want me to remember?: ") #We ask the user 
+    things_to_remember.append(thing) #We add the thing at the end of the list
+    if(input("Do you want to continue [y/n]?: ").lower == "n"):
+        continue = false
+
+for _ in things_to_remember:
+    print(_)
+#+end_src
+With this code we will save things in a list and at the end we will print them.
+* Tools
+** Iterate a list
+To iterate a list we can use the for loop in the next way:
+#+begin_src python
+list_example = [1,2,3,4]
+for _ in list_example:
+    <code>
+#+end_src
+In this code the "\_" is the variable in which the element of the list is saved. In the first cycle the variable "\_" will save the value "1", in the second cycle will be 2 and so on. Remember that "_" is just the name of a variable so it will be the same as:
+#+begin_src python
+name=["Marcus", "Paul", "Jaremy"]
+for name in names:
+    <code>
+#+end_src
+*** Use cases
+**** Printing a list
+The most common use of iterating a list with a for loop is printing it, for example in the case of the names
+#+begin_src python
+name=["Marcus", "Paul", "Jaremy"]
+for name in names:
+    print(name)
+#+end_src
+** Acces elements in a list
+To acces elements in a list we use the syntax:
+~<list name>[index]~
+
+*Remember*: The index of the first element of a list is /0/
+
+*** Use cases
+**** Print the value store in a specific index
+#+begin_src python
+lst_example = [1,"Hola", True, 4]
+print(lst_example[1])
+#+end_src
+This will print ~Hola~
+**** Replace the value in an specific index
+To replace a the value of one index we do this:
+#+begin_src python
+lst_example = [1, "Hola", True, 4]
+lst_example[1] = "Hello"
+print(lst_example)
+#+end_src
+This will print ~[1, 'Hello', True, 4]"~
+**** Change all the values in a list
+For this we also use the function len()
+#+begin_src python
+lst_example = [1,2,3,4]
+for i in range(len(lst_example)):
+    lst_example[i] += 1
+
+print(lst_example)
+#+end_src
+Inside the for loop we add 1 to all the values in the list and obtain the next result ~[2, 3, 4, 5]~
+* Questions
+** Do the for loop create a copy for every element in a list during the iteration?
+No, the for loop doesn't not create a copy, the loop variable is a reference to the values of the list. So, any alteration to the value to which the variable is referencing will alter the values of the list. To see this we can use the next code:
+#+begin_src python
+lists = [[1,2,3], [4,5,6], [7,8,9]]
+for lst in lists:
+    lst.pop()
+
+print(lists)
+#+end_src
+
+*Output*
+#+begin_src bsh
+[[1, 2], [4, 5], [7, 8]]
+#+end_src
+
+We can see that the modifications to each list of lists done inside the for loop is done to the lists inside lists. +sounds like a tongue twister xd+
+
+But if we do an assingment operation to the loop variable it wont affect the value of the list because we will be changing the reference stores in the variable. For example, this code:
+#+begin_src python
+lst_example = [1,2,3,4]
+for _ in lst_example:
+    _+=1
+
+print(lst_example)
+#+end_src
+produce this output:
+#+begin_src bash
+[1, 2, 3, 4]
+#+end_src
+
+This is because the ~_+=1~ statement acts like an assignment, this assignment ~_ = _ + 1~
+* See Also

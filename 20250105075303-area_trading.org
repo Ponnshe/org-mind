@@ -1,0 +1,28 @@
+:PROPERTIES:
+:ID:       55790fc8-acdf-4bff-8392-1c588d7b2c41
+:END:
+#+title: Area-Trading
+#+category: AREA
+#+filetags: :trading:
+
+* Learn Trading
+** Objectives
+- Learn Trading with Wyckoff methodology
+** Resources
+*** Online Courses
+- https://www.youtube.com/watch?v=C9aSiyinF-Y&list=PLVqzNYdLGWqFVGJXp3mJJgOZLbYrJ5kw9&index=1
+- https://www.youtube.com/watch?v=3YpthDJBHvc&list=PLCJIyi42Mxne3TROsLF41dhEvcFN8nxyh&index=2
+*** Literature
+**** Books
+***** [[id:217bb625-1a0b-44a9-9402-a753cd5ce5d8][Book - Análisis Técnico de Mercados Financieros]] 
+***** Stock Market Technique Number One by Richard D. Wyckof
+** Now Plan
+
+*** TODO Read [[id:217bb625-1a0b-44a9-9402-a753cd5ce5d8][Book - Análisis Técnico de Mercados Financieros]]
+
+** Plan
+*** Read The Book "Análisis Técnico de Mercados Financieros"
+*** Watch the courses
+*** Search More books and strategies
+
+** Log

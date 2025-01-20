@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       e43cac21-1417-4aaf-afe4-dd32cb1ac503
+:END:
+#+title: Area-Home Manager
+#+category: AREA
+#+filetags: :programming:os-tool:nixOS:
+* NixOS 
+** Objectives
+- Learn to use this OS to replicate my system in others computers easily
+** Resources
+** Now Plan
+** Plan
+- [ ] Learn [[id:c787dfaf-526d-47a9-bcfe-da6d416f7182][Area-Nix]]
+- [ ] Learn [[id:0a53ed6f-bc68-4ecd-9da0-35aea3ec59d6][Area-Flake]]
+- [ ] Learn[[id:e43cac21-1417-4aaf-afe4-dd32cb1ac503][Area-Home Manager]] 
+** Log
+
+

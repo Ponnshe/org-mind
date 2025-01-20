@@ -1,0 +1,120 @@
+:PROPERTIES:
+:ID:       d04fd03a-0c1f-462f-ace4-8d8a7e150cc4
+:END:
+#+title: Python Dictionary
+#+filetags: :coding:concepts:
+#+category: NOTE
+
+* Syntax
+A [[id:49965b9b-69db-44c1-8d24-e4b3c5c1e722][dictionary]] in Python is simple. You just use the following syntax:
+
+#+begin_src python
+dictionary = {
+    "key1": value,
+    "key2": value2,
+}
+#+end_src
+
+The keys are strings.
+
+To add a new pair you just do this
+#+begin_src python
+dictionary["key 3"] = 45
+#+end_src
+This will add the key "key 3" and assign the value 45 in the previous dictionary
+
+* Characteristics
+- It is a mutable object
+- It doesn't keep the order of the saved pairs <key: value>
+
+* Methods
+/Here I will save\/write the methods that I have use so far/
+** keys()
+Return a [[id:1ebef9bf-4af9-478d-b9cc-e95e376ba78a][list]] of the keys in the dictionary
+*** Use Cases
+**** Verify if exists a key in a dictionary
+#+begin_src python
+dict_example = {
+    "key 1": 23,
+    "key 2": 32,
+    "key 3": 11,
+}
+
+searched_key = "key 4"
+
+if searched_key in dict_example.keys():
+    print(f"The key {searched_key} is in the dictionary")
+else:
+    print(f"The key {searched_key} is not in the dictionary")
+#+end_src
+
+In this example we look for a key and print if it is in the dictionary or not. In this case, the searched key is not in the dictionary
+**** Access every entry in the dictionary
+We can also use this method to acces every value saved in the dictionary
+
+#+begin_src python
+dict_example = {
+    "key 1": 23,
+    "key 2": 32,
+    "key 3": 11,
+}
+
+searched_key = "key 4"
+
+for _ in dict_example.keys():
+    print(dict_example[_])
+
+#+end_src
+
+This will print every value saved int the dictionary. In this case the output would be
+
+#+begin_src bash
+23
+32
+11
+#+end_src
+** values()
+This method return a list of the values saved in the dictionary. It works similar as the keys method but for the values
+*** Use cases
+**** Use the values without modifying and saving them
+We can use this method if we want to use the values but we doesn't need to save the modifications in the dictionary
+#+begin_src python
+dict_example = {
+    "key 1": 23,
+    "key 2": 43,
+    "key 3": 54,
+}
+
+for _ in dict_example.values():
+    cuadratic = _**2
+    print(square)
+
+for _ in dict_example.keys():
+    print(dict_example[_])
+#+end_src
+
+With this example, we first will see a list of the cuadratics of every number saved in the list and then we'll see that the list didn't change.
+** item()
+This methos return a list of pairs (key, value) of the dictionary
+*** Use Cases
+**** Printing the dictionary
+#+begin_src python
+dict_example = {
+    "key 1": 23,
+    "key 2": 32,
+    "key 3": 11,
+}
+
+for key, value in dict_example.items():
+    print(f"{key}: {value}")
+
+#+end_src
+
+The output will be:
+#+begin_src bash
+key 1: 23
+key 2: 32
+key 3: 11
+#+end_src>
+* See Also
+- [[id:1ebef9bf-4af9-478d-b9cc-e95e376ba78a][Python List]]

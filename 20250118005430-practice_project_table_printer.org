@@ -1,0 +1,79 @@
+:PROPERTIES:
+:ID:       2afffeb2-abc4-47b0-877b-d8165d99e8e0
+:END:
+#+title: Practice Project - Table Printer
+#+filetags: :coding:practice:project:
+#+category: CODING-EXERCISE
+
+* Objective
+Write a function named printTable() that takes a list of lists of strings and
+displays it in a well-organized table with each column right-justified.
+Assume that all the inner lists will contain the same number of strings.
+For example, the value could look like this:
+tableData = [['apples', 'oranges', 'cherries', 'banana'],
+             ['Alice', 'Bob', 'Carol', 'David'],
+             ['dogs', 'cats', 'moose', 'goose']]
+Your printTable() function would print the following:
+   apples Alice  dogs
+  oranges   Bob  cats
+ cherries Carol moose
+   banana David goose
+
+   
+* Fleeting
+
+** Python
+
+*** Planning
+I will have to parse the lists twice. The first iteration is to get the lenght of the largest string in the sub-lists in order to use that value to justify. I will create a list with the lenght of the main list. Then I will extract for each sub-list the greater value of the length of each component of the sublist. For example:
+
+/given col_widths the list of the greatest values of each sublist/
+
+the ~col_width[0]~ will save the greatest value of the first sub-list, ~col_width[1]~ the second sub-list and so on.
+
+After that I will have to iterate the lists like this: first element of the first list, first element of the second list, etc. (this computational inefficient, but I can't see other way) to print the table.
+
+- [X] Get the greatest lenght of each sublist
+- [X] Print the table xd
+
+  So this could be a code:
+#+begin_src python
+def print_table(table_data):
+    col_width = [0] * len(table_data)
+    num_columns = len(table_data)
+    num_rows = len(table_data[0]) #This works because I assume all lists contain the same number of strings
+    for col in range(num_columns):
+        for row in range(num_rows):
+            if len(table_data[col][row]) > col_width[col]:
+                col_width[col] = len(table_data[col][row])
+
+    for row in range(num_rows):
+        for col in range(num_columns):
+            print(table_data[col][row].rjust(col_width[col]), end="| ")
+        print("\n")
+#+end_src
+
+*** Implementation
+The planning code was good, it mets the requirements, but it is not good enough, so I justa add some formatting to the table.
+#+begin_src python
+def print_table(table_data):
+    col_width = [0] * len(table_data)
+    num_columns = len(table_data)
+    num_rows = len(table_data[0]) #This works because I assume all lists contain the same number of strings
+    for col in range(num_columns):
+        for row in range(num_rows):
+            if len(table_data[col][row]) > col_width[col]:
+                col_width[col] = len(table_data[col][row])
+
+    total_justify = 0
+    for i in col_width:
+        total_justify += i
+
+    print ("".rjust(total_justify+3*num_columns+1, "-"))
+    for row in range(num_rows):
+        print("| ", end="")
+        for col in range(num_columns):
+            print(table_data[col][row].rjust(col_width[col]), end=" | ")
+        print("")
+        print ("".rjust(total_justify+3*num_columns+1, "-"))
+#+end_src>

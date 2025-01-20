@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       f253f326-2890-43f3-bd05-6bde8a3423e9
+:END:
+#+title: Python try...except block
+

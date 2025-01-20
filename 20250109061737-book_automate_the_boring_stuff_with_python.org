@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       cdd2475f-a203-40ee-9bc7-809bb125cf3e
+:END:
+#+title: Book - Automate The Boring Stuff With Python
+#+category: BOOK
+#+filetags: :python:coding:
+#+author: Al Swigart
+
+* READING [[/home/ponnshe/Home/Studying/Backend/Books/Automate-the-boring-stuff-with-python-Al-Sweigart.epub][Automate The Boring Stuff with Python - Al Sweigart]]

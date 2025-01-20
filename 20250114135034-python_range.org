@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       ceb257d0-bd6c-4fd6-ba9e-2d581e81a88e
+:END:
+#+title: Python range()
+

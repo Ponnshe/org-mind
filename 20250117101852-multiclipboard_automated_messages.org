@@ -1,0 +1,78 @@
+:PROPERTIES:
+:ID:       42c3a43d-8985-4180-93a9-a2393bc8a326
+:END:
+#+title: Multiclipboard automated messages
+#+filetags: :coding:practice:project:
+#+category: CODING-EXERCISE
+
+* Objective
+Via CLI receive a keyword and depending on that keyboard some message will be copied to the system clipboard. For example if I have this keywords and their corresponding messages:
+- *agree*: Yes, I agree. That sounds fine to me.
+- *busy*: Sorry, can we do this later this week or next week?
+- *upsell*: Would you consider making this a monthly donation?
+
+  And I call the program with the parameter "agree" I will have in my clipboard the message "Yes, I agree. That sounds fine to me."
+
+
+
+* Fleeting
+This will chaotic because I will just write and annotate my thoughts as they come, later (if I want) I will write a cleaner version.
+
+Another thing to consider is that I love the early return approach so I will use it. Briefly, the early return approach let me use many returns within a function to exit the function earlier, instead of using just one return statement at the end. The early return approach avoid deep nested control statements
+
+** Python
+I will use a [[id:d04fd03a-0c1f-462f-ace4-8d8a7e150cc4][dictionary]] to store the relation between keywords and messages, so I will start declaring this variable somewhere (it should be inside the main function)
+
+#+begin_src python
+text = {
+    'agree': "Yes, I agree. That sounds fine to me.",
+    'busy': "Sorry, can we do this later this week or next week?"
+    'upsell': "Would you consider making this a monthly donation?"
+}
+#+end_src
+
+So the "commands" that this program will receive via CLI is "agree", "busy","upsell"
+
+*** Planning
+This program should be easy, I just receive a "command", then I would just have to validate that keyword by verifying that the "command" received is a keyword in the dictonary and then pass the corresponding text to the clipboard using the python module called [[id:6428ebf7-26e2-4c2f-ab9a-4dd48d9cff0a][pyperclip]] 
+
+So, the parameters via CLI are receive via de list of sys.argv, at the index 0 is the name of the program and the parmeters start at the index 1.
+
+- [X] Check if the params are valid
+- [X] Select the correct text
+- [X] Copy that text to pyperclip
+
+A possible code could be this:
+#+begin_src python
+import pyperclip
+import sys
+
+def main(param1):
+    text = {
+        'agree': "Yes, I agree. That sounds fine to me.",
+        'busy': "Sorry, can we do this later this week or next week?"
+        'upsell': "Would you consider making this a monthly donation?"
+    }
+    if param1 not in text.keys():
+        print('Invalid Keyword, try using: "agree", "busy" or "upsell"')
+        return
+    pyperclip.copy(text[param1])
+    print(f"Copied to the clipboard the text: \"{text[param1]}\"")
+    return
+
+if name == "__main__":
+    if len(sys.argv)<2:
+        print("Uso: python main.py <param1>")
+        sys.exit
+    param1 = sys.argv[1]
+    main(param1)
+#+end_src
+
+*** Implementation
+Hopefully this wouldn't require to much for this section, just the code in the previous section.
+Yep, as expected, the previous code was enough.
+
+* See Also
+- [[id:d04fd03a-0c1f-462f-ace4-8d8a7e150cc4][Python Dictionary]]
+- [[id:cc7cefd0-d950-497b-990b-11d07649e3c7][Python Module - sys]]
+- [[id:2a98c1fe-cd83-427d-b6dd-0cd3adf59a03][Python - name == "__main__"]] 

@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       0a53ed6f-bc68-4ecd-9da0-35aea3ec59d6
+:END:
+#+title: Area-Flake
+#+category: AREA
+#+filetags: :programming:os-tool:
+* Flake
+** Objectives
+** Resources
+** Now Plan
+** Plan
+** Log
+
+

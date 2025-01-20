@@ -1,0 +1,209 @@
+:PROPERTIES:
+:ID:       fd1ae009-e52c-43e7-9bda-f870b5f75cc9
+:END:
+#+title: tic tac toe exercise
+#+filetags: :coding:practice:
+#+category: CODING-EXERCISE
+
+* Objective 
+Create a program to play tic tac toe
+* With Python
+With python I will drive this project as a cli game. I will use a [[id:d04fd03a-0c1f-462f-ace4-8d8a7e150cc4][dictionary]] to save the state of the board.
+** Planning
+*** Requirements
+- Receive a movement command from the players
+- Update the table state accordingly
+- Automatic updating the turns, the game will automatically know which player's turns is.
+- Know when the game ends:
+  - There is a winner
+  - The board is full
+*** Functions
+- *ask_move(player)*: This function will ask the movement for the player
+- *make_mov(move, board, player)*: This function will update the board
+- *change_player(player)*: This function will change the player. 
+- *continue_game(board)*: This function will determine if the game continue with the help of this function:
+  - *check_winner(board, scenario)*: This function check if there is a winner by checking if the board has any of the winner cases.
+** Implementation
+
+*** Board in a dictionary form 
+To represent the board with a dictionaty I will declare the nine positions with the following keys:
+"top_L": Top Left
+"top_M": Top Mid
+"top_R": Top Right
+"mid_L": Mid Left
+"mid_M": Mid Mid
+"mid_R": Mid Right
+"bot_L":  Bot Left
+"bot_M":  Bot Mid
+"bot_R":  Bot Right
+
+I will initialize each key with the value "". So this will be the initial dictionary for board
+#+begin_src python
+board = {
+    'top_L': "", 'top_M': "", 'top_R': "",
+    'mid_L': "", 'mid_M': "", 'mid_R': "",
+    'bot_L': "", 'bot_M': "", 'bot_R': "",
+}
+#+end_src>
+
+*** Printing the board
+The first thing that I notice is that I will need some function to print the board, because I need it to be printed in each iteration of the game loop and at the end, so in order to not repeat myself I will need a function for this work. Therefore, I created the next functions:
+#+begin_src python
+def print_board_square(board, position):
+    if (board[position] == ""):
+        print(" |", end="")
+    else:
+        print(f"{board[position]}|", end="")
+
+def print_board(board):
+    print("\n")
+    print_board_square(board, 'top_L')
+    print_board_square(board, 'top_M')
+    print(board['top_R'])
+    print("-+-+-")
+    print_board_square(board, 'mid_L')
+    print_board_square(board, 'mid_M')
+    print(board['mid_R'])
+    print("-+-+-")
+    print_board_square(board, 'bot_L')
+    print_board_square(board, 'bot_M')
+    print(board['bot_R'])
+#+end_src
+The first function ~print_board_square(board, position)~ it's just a helper cause I dont wanted to write the block of code in charge to print " " when the position in the board was empty. Another way, a easier one would have be initialize the dicitonary with the value of " " instead of "".
+
+*** Asking the user to make a move
+For this, I will present the user with a menu of the commands that he has available to make a move and then I will return his entry in lowercase.
+#+begin_src python
+def ask_mov(player):
+    print("\ntl: Top Left")
+    print("tm: Top Mid")
+    print("tr: Top Right")
+    print("ml: Mid Left")
+    print("mm: Mid Mid")
+    print("mr: Mid Right")
+    print("bl: Bot Left")
+    print("bm: Bot Mid")
+    print("br: Bot Right\n")
+
+    print(f"\nIt's turn of {player}'s")
+    move = input("Give the position for your movement: ").lower()
+    return move
+#+end_src>
+
+*** Making the move of the user in the table
+For this I will use another dictionary to "translate" the command that the user gave to a key of the board. To make a move I have to check if the given command is valid and if the position is valid. The first thing is just a verification if "move" is in "movements.keys()", the second one is verifying if the position is empty. This function have to return some control value in order to know if I have to change the player or no. This is the code:
+#+begin_src python
+def make_mov(move, board, player):
+    movements = {
+        "tl": 'top_L',
+        "tm": 'top_M',
+        "tr": 'top_R',
+        "ml": 'mid_L',
+        "mm": 'mid_M',
+        "mr": 'mid_R',
+        "bl": 'bot_L',
+        "bm": 'bot_M',
+        "br": 'bot_R',
+    }
+
+    if move not in movements.keys():
+        print("Invalid Position")
+        return 1
+
+    board_dir = movements[move]
+
+    if board[board_dir] != "":
+        print("\nInvalid movement: Position already taken, you lose a turn for fool")
+    else:
+        board[board_dir] = player
+
+    return 0
+#+end_src
+
+*** Changing player's turn
+I will have a variable which will change accordingly to the turns. For example: if it is x's turn this variable will have the value "x". However, if it is o's turns, this variable will have the value "o". Therefore to change the turn I just have to change this value, that's way this function just receive this variable and return another value accordingly. This is the code:
+#+begin_src python
+def change_player(player):
+    if player=='o':
+        player='x'
+    else:
+        player='o'
+
+    return player
+#+end_src
+
+*** Knowing whether to continue the game
+I will need two functions for this requirement:
+1. Will check if there is a winner
+2. Will check if the board is full or there is a winner
+   The first one is an auxiliar one. The way I solve this problem of knowing whether there is a winner is by listing the winner cases in the tic-tac-toe, the winner cases are the one in which three specific positions have the same value if this value is different from the initial value. Therfore, I create the following [[id:1ebef9bf-4af9-478d-b9cc-e95e376ba78a][list]]  inside the second function.
+   #+begin_src python
+win_scenarios = [
+    ('top_L', 'top_M', 'top_R'),
+    ('mid_L', 'mid_M', 'mid_R'),
+    ('bot_L', 'bot_M', 'bot_R'),
+    ('top_L', 'mid_L', 'bot_L'),
+    ('top_M', 'mid_M', 'bot_M'), 
+    ('top_R', 'mid_R', 'bot_R'),
+    ('top_R', 'mid_M', 'bot_L'),
+    ('top_L', 'mid_M', 'bot_R'),
+]
+#+end_src
+This is a list of [[id:5d25d41c-324e-4f80-83c0-f86fe69666c4][tuples]] that represents the winner cases. In the function that checks if there is a winner, I receive one of these scenarios and compare if the position of the scenarios have all three of them the same value in the board.
+The ~check_winner~ function looks like this
+#+begin_src python
+def check_winner(board, scenario):
+    return board[scenario[0]] == board[scenario[1]] == board[scenario[2]] != ""
+#+end_src
+And the ~continue_game~ function looks like this
+#+begin_src python
+def continue_game(board):
+    win_scenarios = [
+        ('top_L', 'top_M', 'top_R'),
+        ('mid_L', 'mid_M', 'mid_R'),
+        ('bot_L', 'bot_M', 'bot_R'),
+        ('top_L', 'mid_L', 'bot_L'),
+        ('top_M', 'mid_M', 'bot_M'), 
+        ('top_R', 'mid_R', 'bot_R'),
+        ('top_R', 'mid_M', 'bot_L'),
+        ('top_L', 'mid_M', 'bot_R'),
+    ]
+    there_is_winner = any(check_winner(board, scenario) for scenario in win_scenarios)
+    is_full = not any(v=="" for v in board.values())
+
+    if(there_is_winner):
+        print(f"\nGanador: {board['top_L']}")
+    elif is_full:
+        print("It's a tie")
+
+    return not (there_is_winner or is_full)
+#+end_src>
+As it can be seen, I use the [[id:baa667e0-7246-421f-8c25-ac88cbbe4009][any()]] function which essentially returns true if any of the cases passed are true. I use this function to get the ~there_is_winner~ variable and the ~is_full~ variable. I have to explai the obtaintion of the ~is_full~ variable. It just iterate the board and look if there is a "" value, because if there is such value it indicates the board is not empty so I need the ~any()~ function to return false to it be true, so I use the ~not~ operator.
+
+*** The main function
+Lastly the main function is this:
+#+begin_src python
+def main():
+    board = {
+        'top_L': "", 'top_M': "", 'top_R': "",
+        'mid_L': "", 'mid_M': "", 'mid_R': "",
+        'bot_L': "", 'bot_M': "", 'bot_R': "",
+    }
+
+    player = 'x'
+
+    while continue_game(board):
+
+        print_board(board)
+
+        move = ask_mov(player)
+
+        if make_mov(move, board, player) != 0:
+            continue
+
+        player = change_player(player)
+
+
+    print("\nTablero Final")
+    print_board(board)
+#+end_src>

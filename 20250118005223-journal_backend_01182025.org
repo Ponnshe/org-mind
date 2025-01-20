@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       6df95a5d-bcf4-4230-bcbd-1045dae9cc68
+:END:
+#+title: Journal - Backend - 01182025
+#+category: JOURNAL
+#+filetags: :backend:programming:journal:
+
+00:53 Well as always I end up being up late. I just finished the implementation of [[id:6870a2e2-47fc-4828-825f-e778643dc82f][Pig Latin Translator]] I will start to do the planning for [[id:2afffeb2-abc4-47b0-877b-d8165d99e8e0][Practice Project - Table Printer]] 
+
+*14:00*: I decided to take the saturdays off
+* To-Do's
+- [ ] Do the exercises of the chapter (table printer, zombie dice bots)
+  - [ ] [[id:2afffeb2-abc4-47b0-877b-d8165d99e8e0][Practice Project - Table Printer]]
+  - [ ] [[id:6faa52ba-61b6-4011-89bb-4875e1998de6][Practice Project - Zombie Dice Bots]]
+- [ ] Do the note for strings in python [[id:ac87cf3d-84bf-4db2-8c0c-4a8acc0961f9][Python Strings]]
+

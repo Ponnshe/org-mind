@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       5d25d41c-324e-4f80-83c0-f86fe69666c4
+:END:
+#+title: Python Tuples
+* TODO Complete this note

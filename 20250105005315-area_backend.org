@@ -1,0 +1,412 @@
+:PROPERTIES:
+:ID:       1067cbc4-bdfd-4167-98c4-b4d9f28b0560
+:END:
+#+title: Area-Backend
+#+category: AREA #+filetags: :programming:backend:
+
+* Backend
+** Objectives
+- Learn Backend with Python and Go
+- Find a Job
+** Resources
+*** Online Courses
+- **Boot-Dev** https://www.boot.dev/tracks/backend
+*** Literature
+**** Books
+***** Main Books
+****** [[id:cdd2475f-a203-40ee-9bc7-809bb125cf3e][Book - Automate The Boring Stuff With Python]] 
+****** TOREAD "Pro Git" por Scott Chacon y Ben Straub
+****** TOREAD "Python Crash Course" por Eric Matthes
+****** TOREAD "Clean Code" por Robert C. Martin
+****** TOREAD "Designing Data-Intensive Applications" por Martin Kleppmann
+****** TOREAD "Programming in Go: Creating Applications for the 21st Century" por Mark Summerfield
+****** TOREAD "The Pragmatic Programmer" por Andrew Hunt y David Thomas
+****** TOREAD "Learning SQL" por Alan Beaulieu
+****** TOREAD "Docker Deep Dive" por Nigel Poulton
+***** Extras
+****** TOREAD "The Complete Software Developer's Career Guide" de John Sonmez
+****** TOREAD "Writing Great Specifications" de Robert C. Martin
+****** TOREAD "Documenting Software Architectures: Views and Beyond" de Paul Clements
+****** TOREAD "API Documentation: Best Practices" (artículo online)
+****** TOREAD "Scrum: The Art of Doing Twice the Work in Half the Time" de Jeff Sutherland 
+** Now Plan
+*** TODO Read [[id:cdd2475f-a203-40ee-9bc7-809bb125cf3e][Book - Automate The Boring Stuff With Python]] 
+I will solve every exercise in python with tkinter and C++ with Qt, the goal is to learn GUI with pyhton and learn C++ and GUI.
+** Plan
+*** TODO Learn to code in Python (10h ~ 3 days) [35%]
+**** DONE Introduction
+CLOSED: [2025-01-05 dom 07:48]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-01-05 dom 07:48]
+:END:
+Learn about the Python programming language and why it's so ubiquitous
+**** DONE Variables
+CLOSED: [2025-01-05 dom 07:48]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-01-05 dom 07:48]
+:END:
+Learn how variables are declared and used in Python
+**** DONE Functions
+CLOSED: [2025-01-05 dom 07:48]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-01-05 dom 07:48]
+:END:
+Learn how to declare and call functions
+**** DONE Scope
+CLOSED: [2025-01-05 dom 07:49]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-01-05 dom 07:49]
+:END:
+Learn how Python scopes variables in different contexts
+**** TODO Testing and Debugging
+Learn how unit tests and good debugging practices will help you write better code
+**** TODO Computing
+Learn the basics of how computers work internally
+**** TODO Comparisons
+Learn how to compare different values and make logical decisions in a program
+**** TODO Loops
+Master the art of reusing code
+**** TODO Lists
+Learn the most basic and powerful data structure in all of coding
+**** DONE Dictionaries
+CLOSED: [2025-01-15 mié 10:53]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-01-15 mié 10:53]
+:END:
+Learn about Python's built-in support for complex structures
+**** TODO Sets
+Master another basic data structure of the Python language
+**** TODO Errors
+Learn how to deal with unexpected data and inputs in a Python program
+**** TODO Challenges
+Put your skills to work by squashing some challenging problems
+**** TODO Quiz
+Quiz yourself on some of the important-to-know facts about the Python language
+*** TODO Learn Shells and Terminals (10h ~ 2 dias) [0%]
+**** TODO Terminals and Shells
+Learn how to use a CLI, and why text-based interfaces are so powerful.
+**** TODO Filesystems
+Learn how to navigate a filesystem, and how to create, move, and delete files and directories.
+**** TODO Permissions
+Learn how to use permissions to control access to files and directories.
+**** TODO Programs
+Learn the ins and outs of executing programs and how to connect them in modular pipelines.
+**** TODO Packages
+Learn how to use package managers like Homebrew, APT and Webi to install and manage software, and set up your development environment.
+*** TODO Learn Git (10h ~ 2 dias) [%]
+**** TODO Setup
+Install and configure Git on your local machine
+**** TODO Repositories
+Learn about Git repositories, what they are, and how to work with commits
+**** TODO Internals
+Learn how Git stores data on the files system and the plumbing commands that make it all work
+**** TODO Config
+Learn how to configure Git and set up your user information
+**** TODO Branching
+Practice creating and switching between branches
+**** TODO Merge
+Merge changes from one branch into another and learn how merge commits work
+**** TODO Rebase
+Learn about the cooler way to integrate changes from one branch into another
+**** TODO Reset
+Learn how to undo changes with the reset command
+**** TODO Remote
+Setup a remote repository and learn how to push and pull changes
+**** TODO GitHub
+Learn how to use Git with GitHub, the most popular Git hosting service
+**** TODO Gitignore
+Learn about using a .gitignore file to exclude files and directories from being tracked by Git.
+*** TODO Build a BookBot in Python (20g ~ 4 dias)
+*Me daré tres días para hacer el proyecto y el 4 será para analizarlo y evaluar mi desempeño*
+You'll build a real command-line application in Python that does static analysis on text files, or rather, entire novels like "Frankenstein". You'll be guided through the set up of a professional development environment using VS Code, Git, and Github. This is the perfect first Python project for beginners.
+*** TODO Learn Object Oriented Programming (15h ~ 3 dias) [%]
+**** TODO Classes
+Learn about classes and objects, and how they differ from a functional paradigm.
+**** TODO Encapsulation
+Learn how to write cleaner code by encapsulating data and methods.
+**** TODO Abstraction
+Abstraction is a powerful tool that will make your code more robust and reusable.
+**** TODO Inheritance
+The crux of OOP is the ability to inherit data and behaviors from other classes
+**** TODO Polymorphism
+Polymorphism is one of the best ideas we've had as developers, learn how it works.
+
+*** TODO Build Asteroids using Python and Pygame (20h - 25h ~ 5 dias) [0%]
+*4 días para completar el juego y el 5 para evaluarme*
+Build a clone of the classic Asteroids game using Pygame and object-oriented programming concepts. This guided project will help you understand how to use Pygame to create a game loop, handle user input, and manage game state. You'll also learn how to use object-oriented programming to create game objects and manage their interactions.
+
+**** TODO Pygame
+Setup and install Pygame.
+**** TODO Player
+Create a Player class and implement movement.
+**** TODO Asteroids
+Add asteroids for the player to avoid.
+
+*** TODO Learn Functional Programming (35h - 40h ~ 6 dias) [%]
+Functional programming is back in vogue. There's a reason front-end frameworks like React and Vue are moving toward functional programming, and after this course you'll more than understand its benefits. We'll dive in-depth into all of the foundational concepts of functional programming in a familiar language.
+
+**** TODO What is Functional Programming?
+Learn about the difference between OOP and functional styles, and what the real difference is: imperative vs declarative
+**** TODO First Class Functions
+First class and higher order functions are foundational to everything we do in the functional paradigm
+**** TODO Pure Functions
+My favorite part of functional programming is the focus on pure functions that are easy to test and reason about
+**** TODO Recursion
+While not unique to functional programming, recursion is a powerful tool that is used often when trying to avoid imperative code
+**** TODO Function Transformations
+Learn how to transform functions into other functions to write more abstract and generalized code
+**** TODO Closures
+Learn about encapsulating state within functions and how to use closures to write more expressive code
+**** TODO Currying
+Learn to transform a function with multiple parameters into a series of functions with one parameter, and why you might want to do that
+**** TODO Decorators
+Learn about Python's decorators and how they're essentially syntactic sugar for higher order functions
+**** TODO Sum Types
+Learn about sum types, a powerful way to represent data that is used in many functional languages
+*** TODO Build a Static Site Generator in Python (40h - 50h ~ 10 dias) [%]
+Ever wondered how SEO and performance-optimized static site generators like Hugo work? In this guided project you'll build your own from scratch using Python. You'll put a lot of your learnings from Object-Oriented Programming and Functional Programming to use in a tangible web project. This project isn't for the faint of heart, but it's well worth the effort. You'll come away with a deeper understanding of static content management.
+**** TODO Static Sites
+Learn about what a static site is, and start building the functionality necessary to process and move static HTML and Markdown files.
+**** TODO Nodes
+Build the core HTML generation logic that will power your static site generator. Use recursion and OOP to build an easily understandable and maintainable system.
+**** TODO Inline
+Build the inline markdown parsing logic, and the logic to generate inline HTML elements.
+**** TODO Blocks
+Handle entire blocks of markdown, and generate the HTML nodes that represent them.
+**** TODO Website
+Put the entire static site generator together, and publish your first website.
+*** TODO Learn Algorithms in Python (25h - 35h ~ 7 dias) [0%]
+
+Big-O complexity is arguably the most important concept students learn in a formal computer science degree. This Python course will give you the foundation you need to start your career off on the right foot. After completing this course you'll be comfortable crushing algorithm interview questions and writing performant code.
+**** TODO Introduction
+Learn about what algorithms are and why they matter
+**** TODO Math
+Learn the math required to understand Big-O notation, namely exponents, logarithms, and factorials
+**** TODO Polynomial Time
+Figure out what polynomial time means in the context of algorithms and performant code
+**** TODO Sorting Algorithms
+Learn how data is sorted on a computer, and how to sort it faster
+**** TODO Exponential Time
+Understand why exponential time complexity is so dangerous
+**** TODO P vs NP
+Learn about P and NP
+*** Learn Data Structures in Python (30h - 40h ~ 9 dias)
+**** Description
+If you've had trouble getting past a hard whiteboarding session, this course is for you. You'll build data structures from scratch in Python and improve your problem-solving skills. We'll cover binary trees, linked lists, stacks, graphs and more. This course is a natural next step after the Learn Algorithms course.
+**** Chapters
+***** Introduction
+Learn about data structures and how they play a critical role in algorithms
+***** Stacks
+Learn about stacks, the original LIFO data structure and build one from scratch
+***** Queues
+Learn about the FIFO queue data structure and how to implement a simple one from scratch
+***** Linked Lists
+Understand how linked lists vary from arrays and how to use one to build a faster queue
+***** Binary Trees
+Learn about binary trees, what they are used for, and implement one from scratch
+***** Red Black Trees
+Solve the classic balancing problem of traditional binary trees with a red-black algorithm
+***** Hashmaps
+Build a hashmap from scratch and learn how to use the Python dictionary type effectively
+***** Tries
+Build all the methods of a trie class, and efficiently search entire documents of text
+***** Graphs
+Learn about graph structures and how we can use them to quickly solve a wide array of search problems
+***** BFS and DFS
+Implement and understand the ever-famous breadth first and depth-first search algorithms
+*** Build a Maze Solver in Python (15h - 25h ~ 6 dias)
+Use Python and Tkinter to build a GUI that solves mazes. You'll be writing code that draws a randomized maze and then systematically solves it. You will use your knowledge of algorithms to automate this fun game! This is a fantastic way to build another real project and solidify your algorithmic skills.
+*** Learn Memory Management in C (30h - 50h ~ 8 dias)
+**** Description
+Memory management is something that every programmer needs to deal with and understand at some point. If you're used to working with languages and tools that handle it for you, this course will teach you how all that works under the hood. You'll even build your own garbage collectors from scratch. This course will teach you the C basics you need for the course, but it's not a course about C, it's about memory.
+**** Chapters
+***** C Basics
+Introduction to the basics of the C programming language
+***** Structs
+Understand how C structs work and how they're laid out in memory
+***** Pointers
+You thought pointers were hard? Wrong. Let's figure them out together.
+***** Enums
+Lean how to use enums (enumerations) in C to create a set of named constants.
+***** Unions
+Unions in C are not the same as they are in TypeScript. Let's grok C unions.
+***** Stack and Heap
+Understand the difference between allocating memory on the stack and the heap
+***** Advanced Pointers
+Let's practice some more advanced pointer concepts - like pointers to pointers
+***** Stack Data Structure
+Build a stack in C using structs and pointers and understand where the memory is allocated
+***** Objects
+Implement your own object system for later use in your garbage collection algorithms
+***** Refcounting GC
+Implement a simple reference counting garbage collector from scratch in C
+***** Mark and Sweep GC
+Implement a basic mark and sweep garbage collector and understand its tradeoffs with refcounting
+*** First Personal Project (40h - 80h ~ 16 dias)
+You can't truly become a developer if you can't build your own stuff. Theory and foundations are important, but you also need to be able to fly solo. The purpose of this project is two-fold: a chance to put your skills into practice and to add another project to your portfolio. Well-built personal projects will help you land interviews and jobs, so make sure to put in the effort!
+*** Learn Go for Developers (40h - 70h ~ 14 dias)
+Go is one of the most popular languages this year, and Go developers are among the highest paid in the world. Save yourself months of looking through documentation with this comprehensive introduction. You'll practice writing performant, idiomatic Go with these hands-on lessons and challenges.
+**** Chapters
+***** Variables
+Learn the basic syntax for declaring and using variables and why you should use Go in the first place
+***** Conditionals
+Use if/else statements to control the flow of your program
+***** Functions
+Learn about how functions behave
+***** Structs
+Idiomatically model data in Go using structs
+***** Interfaces
+Master one of Go's most powerful tools: the interface
+***** Errors
+Learn how Go uniquely handles errors
+***** Loops
+Practice various algorithms in Go
+***** Slices
+Learn about Go's take on ordered lists
+***** Maps
+Go has an answer to Python's sets and dictionaries, we call it a map
+***** Pointers
+Learn about pointers and their pitfalls
+***** Packages and Modules
+Learn how go projects are organized on your local machine
+***** Channels
+Master the #1 reason to use Go: its elegance of concurrent programming
+***** Mutexes
+Continue learning about concurrency with mutexes
+***** Generics
+Learn how Go approaches polymorphism with generics: a new feature added in 1.18
+***** Enums
+Go famously doesn't support proper enums, but we'll go over how Go developers solve the same kinds of problems with the tools they have.
+***** Quiz
+Learn about go-specific design patterns and fun language facts
+*** Learn HTTP Clients in Go (20h - 40h ~ 8 dias)
+Learn the backbone of the modern web: HTTP network communications. You will be writing real HTTP requests in Go, then parsing and displaying the responses. Each challenge in this course is part of a larger application so that you will understand how HTTP is used in the real world.
+**** Why HTTP?
+Learn about HTTP and how it powers the majority of web communication
+**** JSON
+Learn one of the most popular data formatting notations in the programming world
+**** DNS
+Learn about domain names and how they map human-readable names to physical servers
+**** URIs
+Understand URIs and URLs at a deeper level
+**** Headers
+Practice adding custom headers to HTTP requests and learn about authorization
+**** Methods
+Learn about GET, POST, PUT, and DELETE requests
+**** Paths
+Learn how URL paths and query parameters relate to typical HTTP requests
+**** HTTPS
+Learn how to encrypt HTTP requests and keep them secure
+**** Errors
+Learn how to handle errors in Go
+**** cURL
+Use cURL and jq to make HTTP requests from the command line
+*** Build a Pokedex in Go (25h - 35h ~ 9 dias)
+A REPL, or Read-Eval-Print Loop, is a simple interactive programming environment that takes user input, evaluates it, and returns the result to the user. In this guided project, you'll build a Pokedex-like REPL in Go that uses the PokeAPI to fetch data about Pokemon. It's a great way to put your Go knowledge to the test and learn valuable skills like HTTP networking and data serialization.
+**** Chapters
+***** REPL
+A REPL (Read, Eval, Print Loop) is a simple interactive programming environment that takes user inputs, evaluates them, and returns the results. Learn how to implement one from scratch in Go.
+***** Cache
+When making network requests, one of the most common performance optimizations is to cache the results. Implement an in-memory cache for the PokeAPI in Go.
+***** Pokedex
+Bring your REPL and cache together to complete your fully functional Pokedex CLI.
+*** Learn SQL (20h - 40h ~ 8 dias)
+Learn all the basics of Structured Query Language in this comprehensive SQL course. You will build out real database tables and practice querying them in flexible ways right in your browser. Not only will you understand how to use SQL, but you will also learn when you should use it and in what situations. We will cover architectural design patterns and how to use SQL in a production environment.
+**** Chapters
+***** Introduction
+Learn about the basics of SQL and how it came to be
+***** Tables
+Create new tables and learn how to structure data efficiently
+***** Constraints
+Learn how to keep data accurate and up to date
+***** CRUD
+Create, read, update and delete information from a SQL database
+***** Basic Queries
+Practice additional clauses and features that SQL offers for more flexible querying
+***** Structuring
+Learn how to order and limit the data returned in large query sets
+***** Aggregations
+Learn how to run powerful calculations on entire datasets
+***** Subqueries
+Practice the advanced technique of nesting queries inside one another
+***** Normalization
+Learn how to normalize a database in order to keep it's data consistent and accurate
+***** Joins
+Practice joining multiple tables together in order to power real world usecases
+***** Performance
+Learn how to keep databases running fast and efficient in production
+*** Build a Blog Aggregator in Go (40h - 60h ~ 12 dias)
+In this guided project you'll practice building a CLI in Go, and you'll use production-ready database tools like PostgreSQL, SQLc, Goose, and psql. This won't just be another CLI utility, but a service that has a long-running service worker that reaches out over the internet to fetch data from remote locations.
+**** Chapters
+***** Config
+Build a system for the CLI tool that allows users to get and set configuration values
+***** Database
+Set up Postgres, Goose and SQLC to allow your CLI application to store and retrieve data.
+***** RSS
+Build functions that will download and parse data from RSS feeds
+***** Following
+Add to the multiplayer features of the project by allowing users to follow other RSS feeds
+***** Aggregate
+Turn your CLI into a long running service that continously aggregates posts from RSS feeds.
+*** Learn HTTP Servers in Go (30h - 50h ~ 10 dias)
+Learn how to build and HTTP web server from scratch in the Go programming language. You'll build a production ready JSON API using farily minimalistic tools. You'll incorporate middleware, routing, logging, webhooks, authentication, authorization, JWTs, and more. This course is the coup-de-grace for any aspiring backend developer.
+**** Servers
+We'll cover the basics of web servers, and why Go is such a great language for building performant web servers
+**** Routing
+We'll cover the basics of HTTP routing, and how to build a router using Go's standard library
+**** Architecture
+We'll talk about some different web architectures, and how to choose the right one for your project
+**** JSON
+Learn about how to parse and send JSON data from a Go server
+**** Storage
+We'll add a PostgreSQL database and talk about data storage and database migrations
+**** Authentication
+We'll build an authentication system using JWTs from scratch, and compare JWTs to other authentication methods
+**** Authorization
+Learn about how authorization differs from authentication, and how to implement it in your application
+**** Webhooks
+Webhooks are a special kind of HTTP handler that you'll use often in modern web applications. Learn how to use them here
+**** Documentation
+Learn about documentation, why it's important, and learn about some tools that can help you write good documentation
+*** Learn Docker (15h - 30h ~ 6 dias)
+Learn Docker from the ground up by installing, running, creating, and publishing Docker containers. Take your Back-end and DevOps skills to the next level. You will discover how Docker fits into production back-end architectures and complete hands-on projects on your local machine. This course is jam-packed with video explanations and rich text explanations so you'll never get lost.
+**** Chapters
+***** Install
+Get Docker & Docker Hub installed on your local development machine
+***** Command Line
+Learn how to navigate the Docker command line interface
+***** Storage
+Practice creating Docker volumes and deploying a blog using the Ghost's official Docker image
+***** Networks
+Learn how to connect Docker containers by using bridge networks
+***** Dockerfiles
+Deploy custom applications on Docker by building your own Docker images
+***** Publish
+Publish your own images up to Docker Hub
+*** Learn CI/CD with GitHub Actions, Docker and Go (20h - 40h ~ 8 dias)
+You'll build and test a real codebase, and then automate that same build process to deploy an application to the cloud. We'll cover technologies like GitHub Actions, Docker, GCP, Cloud Run, and Turso. If you want to learn how modern tech companies test and ship products, this course is for you.
+**** Chapters
+***** Continuous Integration
+Learn the basics of CI with GitHub Actions
+***** Tests
+Learn how to write and run tests both locally and with GitHub Actions
+***** Formatting
+Learn how to run automated code format checks in the cloud
+***** Linting
+Learn how to run automated code linting checks and learn about the difference between linting and formatting
+***** Security
+Learn about automatic security checks and how to set them up in a Go project
+***** Build
+Learn how to build a Go project in the cloud and Dockerize it in GitHub Actions
+***** Deploy
+Learn how to deploy a Go project to the public internet using GCP and Cloud Run
+***** Database
+Learn how to connect your public Go service to a managed Turso database. Run migrations in continuous delivery pipelines
+*** Capstone Project (50h - 150h ~ 30 dias)
+This capstone project should be your resume's pièce de résistance. You're allowed to use any languages or frameworks you want, but you must build it yourself, and it should be remarkable, memorable even. The purpose of this project is two-fold: a chance to put your skills into practice but also to give your resume something that stands out and gets you noticed.
+** Log
+*** January
+- [[id:ff2dbdff-10da-45d3-ab31-93ba51d71ef3][Journal - Backend - 01172025]]
+- [[id:6df95a5d-bcf4-4230-bcbd-1045dae9cc68][Journal - Backend - 01182025]]
+- [[id:2d3bd225-8625-4eda-a3d8-d771e5f5573a][Journal - Backend - 01192025]]
+

@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       6428ebf7-26e2-4c2f-ab9a-4dd48d9cff0a
+:ROAM_REFS: https://pypi.org/project/pyperclip/
+:END:
+#+title: Python Module - pyperclip
+#+category: DOCUMENTATION
+#+filetags: :python-module:
+
+This is a module to copy and past via system clipboard
+
+Pyperclip is a cross-platform Python module for copy and paste clipboard functions. It works with Python 2 and 3.
+
+*Errors could occur in Linux and MacOS because of dependencies, check documentation fot it*
+
+
+
+
+

@@ -1,0 +1,45 @@
+:PROPERTIES:
+:ID:       cb570109-f46d-4e12-8920-511a2f1436f0
+:ROAM_REFS: https://docs.python.org/3/library/random.html
+:END:
+#+title: Python Module - random
+#+category: DOCUMENTATION
+#+filetags: :python-module:
+
+This module generate pseudo-random numbers
+* Functions
+** random.choice(seq)
+Return a random element from the non-empty sequence seq. If seq is empty, raises IndexError.
+*** Use cases
+**** Randomly decide to roll a dice
+#+begin_src python
+while True:
+    choice = random.choice(["r", "q"]) #r: roll , q: quit
+    if choice == "r":
+        diceRollResults = zombiedice.roll() # roll again
+    else:
+        break
+#+end_src
+**** Randomly decide what to eat
+#+begin_src python
+menu = ["spaghetti", "lassagna", "raviolis", "sushi", "onion soup"]
+print("I will eat:", random.choice(menu))
+#+end_src
+
+** random.randrange(stop), random.randrange(start, stop[, step])
+    Return a randomly selected element from ~range(start, stop, step).~
+
+
+This is roughly equivalent to ~choice(range(start, stop, step))~ but supports arbitrarily large ranges and is optimized for common cases.
+
+The positional argument pattern matches the ~range()~ function.
+
+Keyword arguments should not be used because they can be interpreted in unexpected ways. For example ~randrange(start=100)~ is interpreted as ~randrange(0, 100, 1).~
+#+begin_comment
+*Changed in version 3.2:* randrange() is more sophisticated about producing equally distributed values. Formerly it used a style like int(random()*n) which could produce slightly uneven distributions.
+
+*Changed in version 3.12:* Automatic conversion of non-integer types is no longer supported. Calls such as randrange(10.0) and randrange(Fraction(10, 1)) now raise a TypeError.
+#+end_comment
+
+** random.randint(a, b)
+Return a random integer N such that a <= N <= b. Alias for randrange(a, b+1).

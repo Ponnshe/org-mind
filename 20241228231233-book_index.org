@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       0466d847-d7e3-4e17-83e2-aa1600e4a405
+:END:
+#+title: Book Index
+#+category: INDEX
+
+* Math
+** TOREAD [[id:b3e4bd54-0942-45d7-8f7c-0cba1f2ab6f7][Book - Algorithms for Computer Algebra]] 
+** TOREAD https://ocw.ehu.eus/pluginfile.php/54217/mod_resource/content/1/Reduccion_final.pdf (El método de la reducción - Ana Sanchez)
+** TOREAD https://breadl.org/d/126004 (Mathematical Structures for Computer Science - Judith L. Gersting)
+
+* Coding
+
+* Trading
+***** TOREAD Stock Market Technique Number One by Richard D. Wyckof
+
+* Inbox 
+** TOREAD Never Split the difference by Chris Voss
+** TOREAD Guns Germs and Steel by Jared Diamond
+** TOREAD How to Read a Book by Mortimer J. Adler adn Charles Van Doren
+** TOREAD The millionaire Fastlane by Mj DeMarco
+** TOREAD The Laws of Human Nature by Robert Greene
+

@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       1ac0cf79-8fee-4615-a435-7f6be628513e
+:END:
+#+title: Python Classes
+* TODO Complete this note about classes in python :NOTE:

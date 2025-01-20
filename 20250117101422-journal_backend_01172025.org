@@ -1,0 +1,30 @@
+:PROPERTIES:
+:ID:       ff2dbdff-10da-45d3-ab31-93ba51d71ef3
+:END:
+#+title: Journal - Backend - 01172025
+#+category: JOURNAL
+#+filetags: :backend:programming:journal:
+
+Lo principal en este log es que he decidido no realizar los proyectos de estudio de python en C++ y el GUI, esto es porque creo que será más eficiente solo aprender el trasfondo (a programar) porque esto sería el 20% de mi regla de parapeto. Me centraré en aprender bien python para backend y olvidarme del frontend, al menos como objetivo principal, tal vez más adelante aprenda tkinter y C++.
+
+My laptop bat is 10% now, this mark my break time. When I return from my break I should focus on my todo's
+
+*15:00:* I feel bad, I feel like I am alone, but I must persist because I want to be great. My laptop bat is 30% I have completed the multiclipboard project and the adding bullets too, notes and implementation. After the break I will have to complete the pig latin mini project.
+
+*22:30:* Recién regreso del break, me consumió el LoL, pero también fui a correr, corrí más de 4km forzandome hasta el último, estoy orgulloso por eso. Por ahora voy a intentar hacer el planning del [[id:6870a2e2-47fc-4828-825f-e778643dc82f][Pig Latin Translator]]
+
+*23:00*: Finished the planning of the pig latin project. I did fast because I want to take a shower and eat, maybe after eating I will do the implementation of the pig latin translator and the planning of the table printer.
+
+El resto continua en [[id:6df95a5d-bcf4-4230-bcbd-1045dae9cc68][Journal - Backend - 01182025]]
+
+* To-Do's
+- [X] Do the projects of the chapter (Multi-clipboard automatic messages, Adding Bullets to wiki markup, pig latin.)
+  - [X] [[id:42c3a43d-8985-4180-93a9-a2393bc8a326][Multiclipboard automated messages]]
+  - [X] [[id:08e49eaf-e7c2-48fa-84c2-f7d41ec2fd29][Adding Bullets to Wiki markup]]
+  - [X] [[id:6870a2e2-47fc-4828-825f-e778643dc82f][Pig Latin Translator]]
+- [ ] Do the exercises of the chapter (table printer, zombie dice bots)
+- [ ] Do the note for strings in python [[id:ac87cf3d-84bf-4db2-8c0c-4a8acc0961f9][Python Strings]]
+- [ ] Translate the beginning of this note to english
+
+* Emotions
+- I feel like I am going nowhere with programming I am feeling overwhelm by the thought that I have to build some amazing projects to get just a interview, I fell like I can't do it because I can't think of a project that big.
