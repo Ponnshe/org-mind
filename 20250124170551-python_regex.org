@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       fb7e98a8-0076-498e-a2c9-e1fb847fc7b6
+:END:
+#+title: Python regex
+
+* TODO Complete this note about how to use regex in python

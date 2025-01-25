@@ -1,42 +1,42 @@
 
 # Table of Contents
 
-1.  [Objective](#org45f8a0d)
-2.  [With Python](#org184aae4)
-    1.  [Planning](#orgc47739c)
-        1.  [Requirements](#orgcd6823a)
-        2.  [Functions](#org49b5308)
-    2.  [Implementation](#org5db8a52)
-        1.  [Board in a dictionary form](#orgf89361e)
-        2.  [Printing the board](#org4626278)
-        3.  [Asking the user to make a move](#org633a59f)
-        4.  [Making the move of the user in the table](#org0c0e5bc)
-        5.  [Changing player's turn](#orgc4218ea)
-        6.  [Knowing whether to continue the game](#org006a75f)
-        7.  [The main function](#org6456a47)
+1.  [Objective](#org323e252)
+2.  [With Python](#org20b947b)
+    1.  [Planning](#orgaa23ba5)
+        1.  [Requirements](#org6b0e3ee)
+        2.  [Functions](#org3527b52)
+    2.  [Implementation](#org356835f)
+        1.  [Board in a dictionary form](#org8be7541)
+        2.  [Printing the board](#orgaad36c0)
+        3.  [Asking the user to make a move](#org3af961b)
+        4.  [Making the move of the user in the table](#orge7389be)
+        5.  [Changing player's turn](#orge5042fb)
+        6.  [Knowing whether to continue the game](#org0546c40)
+        7.  [The main function](#orgc8a620a)
 
 
 
-<a id="org45f8a0d"></a>
+<a id="org323e252"></a>
 
 # Objective
 
 Create a program to play tic tac toe
 
 
-<a id="org184aae4"></a>
+<a id="org20b947b"></a>
 
 # With Python
 
 With python I will drive this project as a cli game. I will use a [dictionary](20250111130125-python_dictionary.md) to save the state of the board.
 
 
-<a id="orgc47739c"></a>
+<a id="orgaa23ba5"></a>
 
 ## Planning
 
 
-<a id="orgcd6823a"></a>
+<a id="org6b0e3ee"></a>
 
 ### Requirements
 
@@ -48,7 +48,7 @@ With python I will drive this project as a cli game. I will use a [dictionary](2
     -   The board is full
 
 
-<a id="org49b5308"></a>
+<a id="org3527b52"></a>
 
 ### Functions
 
@@ -59,12 +59,12 @@ With python I will drive this project as a cli game. I will use a [dictionary](2
     -   **check<sub>winner</sub>(board, scenario)**: This function check if there is a winner by checking if the board has any of the winner cases.
 
 
-<a id="org5db8a52"></a>
+<a id="org356835f"></a>
 
 ## Implementation
 
 
-<a id="orgf89361e"></a>
+<a id="org8be7541"></a>
 
 ### Board in a dictionary form
 
@@ -89,7 +89,7 @@ board = {
 \#+end<sub>src</sub>>
 
 
-<a id="org4626278"></a>
+<a id="orgaad36c0"></a>
 
 ### Printing the board
 
@@ -118,7 +118,7 @@ The first thing that I notice is that I will need some function to print the boa
 The first function `print_board_square(board, position)` it's just a helper cause I dont wanted to write the block of code in charge to print " " when the position in the board was empty. Another way, a easier one would have be initialize the dicitonary with the value of " " instead of "".
 
 
-<a id="org633a59f"></a>
+<a id="org3af961b"></a>
 
 ### Asking the user to make a move
 
@@ -141,7 +141,7 @@ def ask<sub>mov</sub>(player):
 \#+end<sub>src</sub>>
 
 
-<a id="org0c0e5bc"></a>
+<a id="orge7389be"></a>
 
 ### Making the move of the user in the table
 
@@ -174,7 +174,7 @@ For this I will use another dictionary to "translate" the command that the user 
         return 0
 
 
-<a id="orgc4218ea"></a>
+<a id="orge5042fb"></a>
 
 ### Changing player's turn
 
@@ -189,7 +189,7 @@ I will have a variable which will change accordingly to the turns. For example: 
         return player
 
 
-<a id="org006a75f"></a>
+<a id="org0546c40"></a>
 
 ### Knowing whether to continue the game
 
@@ -242,7 +242,7 @@ elif is<sub>full</sub>:
 As it can be seen, I use the [any()](20250114030832-python_any.md) function which essentially returns true if any of the cases passed are true. I use this function to get the `there_is_winner` variable and the `is_full` variable. I have to explai the obtaintion of the `is_full` variable. It just iterate the board and look if there is a "" value, because if there is such value it indicates the board is not empty so I need the `any()` function to return false to it be true, so I use the `not` operator.
 
 
-<a id="org6456a47"></a>
+<a id="orgc8a620a"></a>
 
 ### The main function
 

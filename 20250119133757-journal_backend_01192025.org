@@ -14,5 +14,5 @@
 - [X] Do the exercises of the chapter (table printer, zombie dice bots)
   - [X] [[id:2afffeb2-abc4-47b0-877b-d8165d99e8e0][Practice Project - Table Printer]]
   - [X] [[id:6faa52ba-61b6-4011-89bb-4875e1998de6][Practice Project - Zombie Dice Bots]]
-- [ ] Do the note for strings in python [[id:ac87cf3d-84bf-4db2-8c0c-4a8acc0961f9][Python Strings]]
+- [X] Do the note for strings in python [[id:ac87cf3d-84bf-4db2-8c0c-4a8acc0961f9][Python Strings]]
 

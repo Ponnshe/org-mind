@@ -1,16 +1,16 @@
 
 # Table of Contents
 
-1.  [Objective](#org9140087)
-2.  [Fleeting](#org475170d)
-    1.  [Python](#org66a5bb7)
-        1.  [Planning](#org9c7ac3e)
-        2.  [Implementation](#orgc4169a5)
-3.  [See Also](#org7181484)
+1.  [Objective](#orgf963437)
+2.  [Fleeting](#org958dfdb)
+    1.  [Python](#org08ba3b1)
+        1.  [Planning](#org0e2fb2b)
+        2.  [Implementation](#orgc8d5b4c)
+3.  [See Also](#org84c565a)
 
 
 
-<a id="org9140087"></a>
+<a id="orgf963437"></a>
 
 # Objective
 
@@ -82,17 +82,17 @@ will stop early if it rolls two shotguns
 brains
 
 
-<a id="org475170d"></a>
+<a id="org958dfdb"></a>
 
 # Fleeting
 
 
-<a id="org66a5bb7"></a>
+<a id="org08ba3b1"></a>
 
 ## Python
 
 
-<a id="org9c7ac3e"></a>
+<a id="org0e2fb2b"></a>
 
 ### Planning
 
@@ -205,7 +205,7 @@ Well I have to create five bots:
                         break
 
 
-<a id="orgc4169a5"></a>
+<a id="orgc8d5b4c"></a>
 
 ### Implementation
 
@@ -309,7 +309,7 @@ This is the final code for the program
     zombiedice.runWebGui(zombies=zombies, numGames=1000)
 
 
-<a id="org7181484"></a>
+<a id="org84c565a"></a>
 
 # See Also
 

@@ -1,20 +1,20 @@
 
 # Table of Contents
 
-1.  [Syntax](#org56c4a83)
-2.  [Characteristics](#org32a385a)
-3.  [Methods](#orgcc54f2d)
-    1.  [keys()](#orgc9a0eb5)
-        1.  [Use Cases](#org821906b)
-    2.  [values()](#orgd74ae50)
-        1.  [Use cases](#orgaa9a10a)
-    3.  [item()](#orga2eb528)
-        1.  [Use Cases](#org513ffba)
-4.  [See Also](#org5a7cf77)
+1.  [Syntax](#org00fd2fd)
+2.  [Characteristics](#orgf64b77f)
+3.  [Methods](#orgd2f7bbe)
+    1.  [keys()](#orgf2c8216)
+        1.  [Use Cases](#org07ceed9)
+    2.  [values()](#orgb46283a)
+        1.  [Use cases](#orgee51ea1)
+    3.  [item()](#org276cf5a)
+        1.  [Use Cases](#org0417836)
+4.  [See Also](#orgffb44fc)
 
 
 
-<a id="org56c4a83"></a>
+<a id="org00fd2fd"></a>
 
 # Syntax
 
@@ -34,7 +34,7 @@ To add a new pair you just do this
 This will add the key "key 3" and assign the value 45 in the previous dictionary
 
 
-<a id="org32a385a"></a>
+<a id="orgf64b77f"></a>
 
 # Characteristics
 
@@ -42,21 +42,21 @@ This will add the key "key 3" and assign the value 45 in the previous dictionary
 -   It doesn't keep the order of the saved pairs <key: value>
 
 
-<a id="orgcc54f2d"></a>
+<a id="orgd2f7bbe"></a>
 
 # Methods
 
 *Here I will save\\/write the methods that I have use so far*
 
 
-<a id="orgc9a0eb5"></a>
+<a id="orgf2c8216"></a>
 
 ## keys()
 
 Return a [list](20250111131854-python_list.md) of the keys in the dictionary
 
 
-<a id="org821906b"></a>
+<a id="org07ceed9"></a>
 
 ### Use Cases
 
@@ -99,14 +99,14 @@ Return a [list](20250111131854-python_list.md) of the keys in the dictionary
         11
 
 
-<a id="orgd74ae50"></a>
+<a id="orgb46283a"></a>
 
 ## values()
 
 This method return a list of the values saved in the dictionary. It works similar as the keys method but for the values
 
 
-<a id="orgaa9a10a"></a>
+<a id="orgee51ea1"></a>
 
 ### Use cases
 
@@ -130,14 +130,14 @@ This method return a list of the values saved in the dictionary. It works simila
     With this example, we first will see a list of the cuadratics of every number saved in the list and then we'll see that the list didn't change.
 
 
-<a id="orga2eb528"></a>
+<a id="org276cf5a"></a>
 
 ## item()
 
 This methos return a list of pairs (key, value) of the dictionary
 
 
-<a id="org513ffba"></a>
+<a id="org0417836"></a>
 
 ### Use Cases
 
@@ -160,7 +160,7 @@ This methos return a list of pairs (key, value) of the dictionary
     \#+end<sub>src</sub>>
 
 
-<a id="org5a7cf77"></a>
+<a id="orgffb44fc"></a>
 
 # See Also
 

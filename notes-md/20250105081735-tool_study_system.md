@@ -1,25 +1,25 @@
 
 # Table of Contents
 
-1.  [Study System](#org172b114)
-    1.  [General Case](#org76ea877)
-        1.  [1. Superficial Reading: Logic Layer](#orgca552fc)
-        2.  [2. Concept reading: Concept Layer](#orga18b387)
-        3.  [3. Detail Reading: Important Details and arbitrary details](#org1a34d9c)
-        4.  [4. Testing](#org5d117ad)
-        5.  [5. Note Taking](#org2c688e1)
-    2.  [Particular Cases](#org9a17a85)
-        1.  [TextBooks](#orgee0eea9)
-2.  [Log](#org415f76c)
+1.  [Study System](#orgd3f0992)
+    1.  [General Case](#orgd2d3a77)
+        1.  [1. Superficial Reading: Logic Layer](#org1c48d82)
+        2.  [2. Concept reading: Concept Layer](#org12ca2d1)
+        3.  [3. Detail Reading: Important Details and arbitrary details](#org1c41ade)
+        4.  [4. Testing](#orge1e4124)
+        5.  [5. Note Taking](#orgdeb51a5)
+    2.  [Particular Cases](#org907a3c8)
+        1.  [TextBooks](#org4ffbf38)
+2.  [Log](#orga53c022)
 
 
 
-<a id="org172b114"></a>
+<a id="orgd3f0992"></a>
 
 # Study System
 
 
-<a id="org76ea877"></a>
+<a id="orgd2d3a77"></a>
 
 ## General Case
 
@@ -27,7 +27,7 @@ My approach to study will be formed by three readings (superficial, concepts , d
 I will use **mind maps** to "take notes" during my study sessions. Well, I will work like this:
 
 
-<a id="orgca552fc"></a>
+<a id="org1c48d82"></a>
 
 ### 1. Superficial Reading: Logic Layer
 
@@ -37,7 +37,7 @@ This reading could be during my study sessions, but it could also be done in oth
 -   **Time:** Approx. 10 min
 
 
-<a id="orga18b387"></a>
+<a id="org12ca2d1"></a>
 
 ### 2. Concept reading: Concept Layer
 
@@ -47,7 +47,7 @@ This is the heavy reading. I have to be in this layer most of the time.
 -   **Time:** Necessary
 
 
-<a id="org1a34d9c"></a>
+<a id="org1c41ade"></a>
 
 ### 3. Detail Reading: Important Details and arbitrary details
 
@@ -57,28 +57,28 @@ This reading is for looking and trying to make sense of "random" information. Th
 -   **Time**: Approx. 10 min
 
 
-<a id="org5d117ad"></a>
+<a id="orge1e4124"></a>
 
 ### 4. Testing
 
 I will create a simple test to see how well I learned the material, I will use Bloom's taxonomy as a reference.
 
 
-<a id="org2c688e1"></a>
+<a id="orgdeb51a5"></a>
 
 ### 5. Note Taking
 
 I will pass the mind map to notes following the zettelkasten method and the system that I had stablish for my note taking system in org-roam.
 
 
-<a id="org9a17a85"></a>
+<a id="org907a3c8"></a>
 
 ## Particular Cases
 
 Ther may be some extras rules or steps for some special cases.
 
 
-<a id="orgee0eea9"></a>
+<a id="org4ffbf38"></a>
 
 ### TextBooks
 
@@ -86,7 +86,7 @@ Textbooks usually come with solved and unsolved exercises. During the second rea
 The testing part will change depending of the unsolve exercises and questions that the textbook could have, for example: if the textbook only has exercises, then the testing will have some deep questions about the concepts. 
 
 
-<a id="org415f76c"></a>
+<a id="orga53c022"></a>
 
 # Log
 

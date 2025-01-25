@@ -1,0 +1,28 @@
+:PROPERTIES:
+:ID:       635918bf-314d-4636-8a90-eae2ddf048cd
+:END:
+#+title: Tool-Trading Plan
+#+category: TOOL
+#+filetags: :trading:
+
+* Spot Plan
+The spot plan will have an extra component for BTC/USDT which includes dual inversion, the plan is simple I will identify two kind of support and resistance levels: importants, secundaries.
+- *Important Levels:* The higher or lower level in a consolidation or during a tendency.
+- *Secundary Levels:* The levels between two important levels.
+
+** Importante Levels
+  I will have some balance for every crypto, I will distribute this balance in three levels following the next porcentages 20%, 30%, 50%. Therefore I will have three important levels to buy, the lower the level the higher the porcentage.
+This will apply for every crypto that I want to buy, the difference is that BTC receive a higher porcentage of my investment capital.
+
+** Dual Investment strategy
+I will have some capital which I will use for dual investment when BTC is in a secundary level. I will use this strategy to gain some interest even when I am not sure of buying or selling BTC. I use BTC because it is easier to exit a bad trade in break even.
+*** Secundary Buying Level
+In a secundary buying level I will start using the dual investment. In this way, if I can't buy BTC at lower prices I had already gained some interest in USDT.
+*** Secundary Selling level
+In a secundary selling level I will start selling BTC, only if I had bought BTC with dual investment. If the price break the selling level I will sell 50% of the BTC bought with dual investment.
+
+* Futures
+For trading of future I will use the boc strategy and pupupu of ZcoinTv and ScottFDX
+
+* Log
+/For changes in the plans/

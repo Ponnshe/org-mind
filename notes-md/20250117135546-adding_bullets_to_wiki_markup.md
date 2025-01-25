@@ -1,16 +1,16 @@
 
 # Table of Contents
 
-1.  [Objective](#orgbbed9a5)
-2.  [Fleeting](#org5ac1f7b)
-    1.  [Python](#orgdc4e5eb)
-        1.  [Planning](#orgfb0c721)
-        2.  [Implementation](#org8130147)
-3.  [See Also](#org91155a3)
+1.  [Objective](#orgf9d9804)
+2.  [Fleeting](#org9be607e)
+    1.  [Python](#org0723f09)
+        1.  [Planning](#org2af32d5)
+        2.  [Implementation](#orgd8c40dc)
+3.  [See Also](#org8b65574)
 
 
 
-<a id="orgbbed9a5"></a>
+<a id="orgf9d9804"></a>
 
 # Objective
 
@@ -33,17 +33,17 @@ And to my clipboard at the there should be this:
 "
 
 
-<a id="org5ac1f7b"></a>
+<a id="org9be607e"></a>
 
 # Fleeting
 
 
-<a id="orgdc4e5eb"></a>
+<a id="org0723f09"></a>
 
 ## Python
 
 
-<a id="orgfb0c721"></a>
+<a id="org2af32d5"></a>
 
 ### Planning
 
@@ -73,7 +73,7 @@ This is the plan I have to get the content of the clipboard by using pyperclip.p
         pyperclip.copy(text)
 
 
-<a id="org8130147"></a>
+<a id="orgd8c40dc"></a>
 
 ### Implementation
 
@@ -96,7 +96,7 @@ def main():
 \#+end<sub>src</sub>>
 
 
-<a id="org91155a3"></a>
+<a id="org8b65574"></a>
 
 # See Also
 

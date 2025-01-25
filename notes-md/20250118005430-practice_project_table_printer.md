@@ -1,15 +1,16 @@
 
 # Table of Contents
 
-1.  [Objective](#org889bb13)
-2.  [Fleeting](#org739ff55)
-    1.  [Python](#orgb725879)
-        1.  [Planning](#org1a0f4ec)
-        2.  [Implementation](#orga1a29c1)
+1.  [Objective](#org21e05f7)
+2.  [Fleeting](#org94e96b4)
+    1.  [Python](#org8cdb062)
+        1.  [Planning](#orgf745ac0)
+        2.  [Implementation](#org00451f9)
+3.  [See Also](#orgfb471aa)
 
 
 
-<a id="org889bb13"></a>
+<a id="org21e05f7"></a>
 
 # Objective
 
@@ -27,17 +28,17 @@ Your printTable() function would print the following:
    banana David goose
 
 
-<a id="org739ff55"></a>
+<a id="org94e96b4"></a>
 
 # Fleeting
 
 
-<a id="orgb725879"></a>
+<a id="org8cdb062"></a>
 
 ## Python
 
 
-<a id="org1a0f4ec"></a>
+<a id="orgf745ac0"></a>
 
 ### Planning
 
@@ -69,7 +70,7 @@ After that I will have to iterate the lists like this: first element of the firs
             print("\n")
 
 
-<a id="orga1a29c1"></a>
+<a id="org00451f9"></a>
 
 ### Implementation
 
@@ -96,4 +97,12 @@ for i in col<sub>width</sub>:
         print("")
         print ("".rjust(total<sub>justify</sub>+3\*num<sub>columns</sub>+1, "-"))
 \#+end<sub>src</sub>>
+
+
+<a id="orgfb471aa"></a>
+
+# See Also
+
+-   [Python Strings](20250114133247-python_strings.md)
+-   [Python List](20250111131854-python_list.md)
 

@@ -1,28 +1,28 @@
 
 # Table of Contents
 
-1.  [Functions](#org369b911)
-    1.  [random.choice(seq)](#org1e944a5)
-        1.  [Use cases](#org654ac39)
-    2.  [random.randrange(stop), random.randrange(start, stop[, step])](#org8c81ce8)
-    3.  [random.randint(a, b)](#org256c10f)
+1.  [Functions](#org38859b6)
+    1.  [random.choice(seq)](#org8d1214f)
+        1.  [Use cases](#org713cd77)
+    2.  [random.randrange(stop), random.randrange(start, stop[, step])](#orga1294ac)
+    3.  [random.randint(a, b)](#orgadedf7a)
 
 This module generate pseudo-random numbers
 
 
-<a id="org369b911"></a>
+<a id="org38859b6"></a>
 
 # Functions
 
 
-<a id="org1e944a5"></a>
+<a id="org8d1214f"></a>
 
 ## random.choice(seq)
 
 Return a random element from the non-empty sequence seq. If seq is empty, raises IndexError.
 
 
-<a id="org654ac39"></a>
+<a id="org713cd77"></a>
 
 ### Use cases
 
@@ -41,7 +41,7 @@ Return a random element from the non-empty sequence seq. If seq is empty, raises
         print("I will eat:", random.choice(menu))
 
 
-<a id="org8c81ce8"></a>
+<a id="orga1294ac"></a>
 
 ## random.randrange(stop), random.randrange(start, stop[, step])
 
@@ -54,7 +54,7 @@ The positional argument pattern matches the `range()` function.
 Keyword arguments should not be used because they can be interpreted in unexpected ways. For example `randrange(start=100)` is interpreted as `randrange(0, 100, 1).`
 
 
-<a id="org256c10f"></a>
+<a id="orgadedf7a"></a>
 
 ## random.randint(a, b)
 

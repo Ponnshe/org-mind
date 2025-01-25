@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       ef8e73c4-5318-4343-9966-9c260f000cb5
+:END:
+#+title: Journal - Backend - 01242025
+#+category: JOURNAL
+#+filetags: :backend:programming:journal:
+
+*17:10*: I finished the implementation of [[id:75c55f64-efe6-493d-84af-036cf943da76][Practice Project - Email and phone number extractor]], now I will do the planning of [[id:8b75acd2-4906-4712-a848-02f17bb4e490][Practice Project - Date Detection]]
+*17:44*:I finished the planning for the [[id:8b75acd2-4906-4712-a848-02f17bb4e490][Practice Project - Date Detection]] 
+*20:51*: I start implementing [[id:8b75acd2-4906-4712-a848-02f17bb4e490][Practice Project - Date Detection]]
+*21:33*: I end the implementation of [[id:8b75acd2-4906-4712-a848-02f17bb4e490][Practice Project - Date Detection]]
+

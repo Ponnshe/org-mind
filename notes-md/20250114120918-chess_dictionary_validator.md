@@ -1,16 +1,16 @@
 
 # Table of Contents
 
-1.  [Objective](#org8f7dcdc)
-2.  [Fleeting](#org5f57de1)
-    1.  [Python](#org9d968d7)
-        1.  [Planning](#org7d21412)
-        2.  [Implementation](#org9c26d78)
-3.  [See Also](#org96f4bcd)
+1.  [Objective](#org96dcf87)
+2.  [Fleeting](#orge477af5)
+    1.  [Python](#orgd395fd8)
+        1.  [Planning](#org26b3779)
+        2.  [Implementation](#org754fcf3)
+3.  [See Also](#orgec8439c)
 
 
 
-<a id="org8f7dcdc"></a>
+<a id="org96dcf87"></a>
 
 # Objective
 
@@ -20,7 +20,7 @@ A valid board will have exactly one black king and exactly one white king. Each 
 board.
 
 
-<a id="org5f57de1"></a>
+<a id="orge477af5"></a>
 
 # Fleeting
 
@@ -29,7 +29,7 @@ This will chaotic because I will just write and annotate my thoughts as they com
 Another thing to consider is that I love the early return approach so I will use it. Briefly, the early return approach let me use many returns within a function to exit the function earlier, instead of using just one return statement at the end. The early return approach avoid deep nested control statements
 
 
-<a id="org9d968d7"></a>
+<a id="orgd395fd8"></a>
 
 ## Python
 
@@ -44,7 +44,7 @@ This is an example of a dictionary that I will receive in the function
     } 
 
 
-<a id="org7d21412"></a>
+<a id="org26b3779"></a>
 
 ### Planning
 
@@ -221,7 +221,7 @@ So now that I have stablish the requirements to meet I can start thinking how I 
     One can save lines of codes by reducing some of cases to just one big case, but I don't like large lines of if cases
 
 
-<a id="org9c26d78"></a>
+<a id="org754fcf3"></a>
 
 ### Implementation
 
@@ -344,7 +344,7 @@ Let's see how well this code performence, obviously I will have to change someth
             return True
 
 
-<a id="org96f4bcd"></a>
+<a id="orgec8439c"></a>
 
 # See Also
 

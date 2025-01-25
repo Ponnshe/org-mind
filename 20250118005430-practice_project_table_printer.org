@@ -77,3 +77,6 @@ def print_table(table_data):
         print("")
         print ("".rjust(total_justify+3*num_columns+1, "-"))
 #+end_src>
+* See Also
+- [[id:ac87cf3d-84bf-4db2-8c0c-4a8acc0961f9][Python Strings]]
+- [[id:1ebef9bf-4af9-478d-b9cc-e95e376ba78a][Python List]]

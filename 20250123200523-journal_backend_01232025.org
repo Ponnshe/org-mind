@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       9cdbeaa9-5f0d-4311-9f6b-a9ea67f27e03
+:END:
+#+title: Journal - Backend - 01232025
+#+category: JOURNAL
+#+filetags: :backend:programming:journal:
+
+*20:46*: I will start with the [[id:75c55f64-efe6-493d-84af-036cf943da76][Practice Project - Email anf phone number extractor]]. At least I will have to do the planning
+* To Do's 
+- [X] Planning for [[id:75c55f64-efe6-493d-84af-036cf943da76][Practice Project - Email anf phone number extractor]]

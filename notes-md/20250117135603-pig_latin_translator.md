@@ -1,15 +1,15 @@
 
 # Table of Contents
 
-1.  [Objective](#org4be3e01)
-2.  [Fleeting](#orga5b40aa)
-    1.  [Python](#org9bc86ac)
-        1.  [Planning](#org4583ea4)
-        2.  [Implementation](#org1b8de55)
+1.  [Objective](#org6297d6c)
+2.  [Fleeting](#org1578a20)
+    1.  [Python](#orgff0c4ec)
+        1.  [Planning](#org7607f9e)
+        2.  [Implementation](#orgc3b49c5)
 
 
 
-<a id="org4be3e01"></a>
+<a id="org6297d6c"></a>
 
 # Objective
 
@@ -23,17 +23,17 @@ My name is AL SWEIGART and I am 4,000 years old.
 Ymay amenay isyay ALYAY EIGARTSWAY andyay Iyay amyay 4,000 yearsyay oldyay.
 
 
-<a id="orga5b40aa"></a>
+<a id="org1578a20"></a>
 
 # Fleeting
 
 
-<a id="org9bc86ac"></a>
+<a id="orgff0c4ec"></a>
 
 ## Python
 
 
-<a id="org4583ea4"></a>
+<a id="org7607f9e"></a>
 
 ### Planning
 
@@ -100,7 +100,7 @@ Then, I will have to remember if the word is in upper or if it is a title. After
                 print(pig_latin_text)
 
 
-<a id="org1b8de55"></a>
+<a id="orgc3b49c5"></a>
 
 ### Implementation
 

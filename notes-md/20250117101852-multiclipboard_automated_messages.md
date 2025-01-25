@@ -1,16 +1,16 @@
 
 # Table of Contents
 
-1.  [Objective](#org6bd4bda)
-2.  [Fleeting](#orgd547bdc)
-    1.  [Python](#org2e21864)
-        1.  [Planning](#orgf14b0a9)
-        2.  [Implementation](#orgb3cb8a0)
-3.  [See Also](#orga843310)
+1.  [Objective](#orga35e89f)
+2.  [Fleeting](#org2203f7b)
+    1.  [Python](#org0f5182c)
+        1.  [Planning](#org7486570)
+        2.  [Implementation](#org70834a8)
+3.  [See Also](#org57079af)
 
 
 
-<a id="org6bd4bda"></a>
+<a id="orga35e89f"></a>
 
 # Objective
 
@@ -23,7 +23,7 @@ Via CLI receive a keyword and depending on that keyboard some message will be co
     And I call the program with the parameter "agree" I will have in my clipboard the message "Yes, I agree. That sounds fine to me."
 
 
-<a id="orgd547bdc"></a>
+<a id="org2203f7b"></a>
 
 # Fleeting
 
@@ -32,7 +32,7 @@ This will chaotic because I will just write and annotate my thoughts as they com
 Another thing to consider is that I love the early return approach so I will use it. Briefly, the early return approach let me use many returns within a function to exit the function earlier, instead of using just one return statement at the end. The early return approach avoid deep nested control statements
 
 
-<a id="org2e21864"></a>
+<a id="org0f5182c"></a>
 
 ## Python
 
@@ -47,7 +47,7 @@ I will use a [dictionary](20250111130125-python_dictionary.md) to store the rela
 So the "commands" that this program will receive via CLI is "agree", "busy","upsell"
 
 
-<a id="orgf14b0a9"></a>
+<a id="org7486570"></a>
 
 ### Planning
 
@@ -85,7 +85,7 @@ A possible code could be this:
         main(param1)
 
 
-<a id="orgb3cb8a0"></a>
+<a id="org70834a8"></a>
 
 ### Implementation
 
@@ -93,7 +93,7 @@ Hopefully this wouldn't require to much for this section, just the code in the p
 Yep, as expected, the previous code was enough.
 
 
-<a id="orga843310"></a>
+<a id="org57079af"></a>
 
 # See Also
 

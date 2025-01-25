@@ -2,6 +2,7 @@
 :ID:       ac87cf3d-84bf-4db2-8c0c-4a8acc0961f9
 :END:
 #+title: Python Strings
+#+filetags: :backend:concepts:python:coding:
 * Do not forget to add the corresponding explanation of string[i] in [[id:2aaa0de3-6fab-4b9c-aa29-2a7b2c91deb1][Chess Dictionary Validator]]
 * Strings
 A string in python can be thought as a non mutable list of characters, so we can use some of the functions and tools that we applied to lists.
@@ -33,5 +34,35 @@ for url in urls:
         print("It is not a .com url")
 #+end_src
 ** Methods
+*** upper(), lower(), title()
+This methods return a copy of the string, but with all its characters in uppercase, lowercase or title, depending of the method.
+**** Use Cases
+***** Standarized strings to compare
+Both of these progrmas will receive a string and apply the upper or lower method to compere it to other string.
+They will ask for a password, but be aware that this is not the right way to manage password entry, this is just an example of a situation when we just care for the word and not the case.
+#+begin_src python
+password = input("Enter the secret word")
+if password.upper() == "SECRET":
+    print("You enter")
+else:
+    print("Wrong word")
+#+end_src
+
+#+begin_src python
+password = input("Enter the secret word")
+if password.lower() == "secret":
+    print("You enter")
+else:
+    print("Wrong word")
+#+end_src
+*** isupper(), islower(), istitle(), isdecimal(), isalpha()
+All this method check if the string is the thing that they are calling, and return ~True~ or ~False~
+- *isupper:* Check if the string is uppercase
+- *islower:* Check if the string is lowecase
+- *istitle:* Check if the string is a title (Every beginning letter of every word is in uppercase and the rest is in lowercase, example: "This Is A Title")
+- *isdecimal:* Check if the string is a number
+- *isalpha:* Check if the string is formed of just letters
+*** TODO join()
+Join just work with a list of string iterables see [[id:8b75acd2-4906-4712-a848-02f17bb4e490][Practice Project - Date Detection]]
 * See Also
 - [[id:1ebef9bf-4af9-478d-b9cc-e95e376ba78a][Python List]]

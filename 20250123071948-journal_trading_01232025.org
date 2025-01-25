@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       8795277f-5b2e-4db3-8599-4e77170ebeb8
+:END:
+#+title: Journal - Trading - 01232025
+#+filetags: :trading:journal:
+#+category: JOURNAL
+
+- *7:20:* I start reading the chapter 4, I will do the priming
+- *08:43*: I took too much time for the priming, I couldn't resist to read a lot of the chapter and try to understand it, that exhaust, I think I must just scam trhough the chapter and take the titles and some words, then I will use Ia to explain briefly those words. Now I will take a shower and then at 9:30 I will prepare the analysis of the day of trading
+* TO Do's
+- [ ] The priming of the chapter 4 of the book [[id:217bb625-1a0b-44a9-9402-a753cd5ce5d8][Book - Análisis Técnico de Mercados Financieros]]
+- [ ] The concept reading
+- [ ] The Details reading
+- [ ] The note
+* Notes
+- [[id:a141cfdf-b4d5-450f-a9a5-7ec48ed0cacd][Fleeting - Chapter 4: Conceptos básicos de tendencia]]
+  
+

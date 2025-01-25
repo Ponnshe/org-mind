@@ -409,4 +409,6 @@ This capstone project should be your resume's pièce de résistance. You're allo
 - [[id:ff2dbdff-10da-45d3-ab31-93ba51d71ef3][Journal - Backend - 01172025]]
 - [[id:6df95a5d-bcf4-4230-bcbd-1045dae9cc68][Journal - Backend - 01182025]]
 - [[id:2d3bd225-8625-4eda-a3d8-d771e5f5573a][Journal - Backend - 01192025]]
+- [[id:9cdbeaa9-5f0d-4311-9f6b-a9ea67f27e03][Journal - Backend - 01232025]]
+- [[id:ef8e73c4-5318-4343-9966-9c260f000cb5][Journal - Backend - 01242025]]
 

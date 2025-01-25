@@ -1,12 +1,12 @@
 
 # Table of Contents
 
-1.  [Resources for completion of this note](#org65e8f0b)
+1.  [Resources for completion of this note](#orga80c36a)
 
 Apperantly python works in a VM. This VM is the one in charge to compile bytecode and manage memory. This is called VM because of the abstraction that it does from the hardware in order to manage.
 
 
-<a id="org65e8f0b"></a>
+<a id="orga80c36a"></a>
 
 # Resources for completion of this note
 

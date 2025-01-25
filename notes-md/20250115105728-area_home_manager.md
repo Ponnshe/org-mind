@@ -1,38 +1,38 @@
 
 # Table of Contents
 
-1.  [NixOS](#orge269f48)
-    1.  [Objectives](#org9be7bb4)
-    2.  [Resources](#org077b608)
-    3.  [Now Plan](#org62ca12d)
-    4.  [Plan](#org88e27de)
-    5.  [Log](#orgb2cd209)
+1.  [NixOS](#org213a1b4)
+    1.  [Objectives](#org939fafa)
+    2.  [Resources](#org639088c)
+    3.  [Now Plan](#org8b4022b)
+    4.  [Plan](#orgf8b388a)
+    5.  [Log](#org4f5abb8)
 
 
 
-<a id="orge269f48"></a>
+<a id="org213a1b4"></a>
 
 # NixOS
 
 
-<a id="org9be7bb4"></a>
+<a id="org939fafa"></a>
 
 ## Objectives
 
 -   Learn to use this OS to replicate my system in others computers easily
 
 
-<a id="org077b608"></a>
+<a id="org639088c"></a>
 
 ## Resources
 
 
-<a id="org62ca12d"></a>
+<a id="org8b4022b"></a>
 
 ## Now Plan
 
 
-<a id="org88e27de"></a>
+<a id="orgf8b388a"></a>
 
 ## Plan
 
@@ -41,7 +41,7 @@
 -   [ ] Learn[Area-Home Manager](20250115105728-area_home_manager.md)
 
 
-<a id="orgb2cd209"></a>
+<a id="org4f5abb8"></a>
 
 ## Log
 
