@@ -1,7 +1,0 @@
-:PROPERTIES:
-:ID:       e756cfbd-1a7e-44a8-ade3-809bdc81bc6d
-:END:
-#+title: Fleeting - Tkinter
-
-Esta es una nota de fleeting para todo lo relacionado a Tkinter
-* 
